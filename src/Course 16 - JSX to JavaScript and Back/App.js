@@ -9,10 +9,10 @@ function App(){
     const hours = date.getHours()
     let timeOfDay
 
-    if(timeOfDay < 12){
+    if(hours < 12){
         timeOfDay = "morning"
     }
-    else if(timeOfDay >= 12 && timeOfDay < 17){
+    else if(hours >= 12 && hours < 17){
         timeOfDay = "afternoon"
     }
     else{
