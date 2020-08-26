@@ -4,6 +4,11 @@ import Joke from './Joke'
 function App(){
     return(
         <div>
+
+            <Joke
+                punchLine="It’s hard to explain puns to kleptomaniacs because they always take things literally."
+            />
+            
             <Joke 
                 question="What's the best thing about Switzerland?" 
                 punchLine="I don't know, but the flag is a big plus!"
