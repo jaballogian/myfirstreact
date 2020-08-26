@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App'; // default react App module
-import App from './Course 22 - React Props and Styling Practice/App' // change this to import own react module
+import App from './Course 23 - Mapping Components in React/App' // change this to import own react module
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
