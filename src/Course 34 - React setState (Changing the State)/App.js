@@ -10,7 +10,11 @@ class App extends React.Component {
     }
 
     handleClick(){
-        this.setState({count: 1})
+        this.setState((previousState) => {
+            return{
+                count: previousState.count + 1
+            }
+        })
         console.log("Clicked")
     }
     
