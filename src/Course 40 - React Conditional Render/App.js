@@ -23,9 +23,17 @@ class App extends React.Component {
     }
 
     render(){
+        // method 1 and 2
+        // return(
+        //     <div>
+        //         <Conditional isLoading={this.state.isLoading}/>
+        //     </div>
+        // )
+
+        // method 3 - using turnary operator in JSX
         return(
             <div>
-                <Conditional isLoading={this.state.isLoading}/>
+                {this.state.isLoading ? <h1>Loading...</h1> : <Conditional />}
             </div>
         )
     }

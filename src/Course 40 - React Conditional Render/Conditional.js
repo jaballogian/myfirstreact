@@ -13,10 +13,15 @@ function Conditional(props){
     // )
 
     // method 2 - using turnary operator
+    // return(
+    //     <div>
+    //         {props.isLoading ? <h1>Loading...</h1> : <h1>Some cool stuff about conditional rendering</h1>}
+    //     </div>
+    // )
+
+    // method 3
     return(
-        <div>
-            {props.isLoading ? <h1>Loading...</h1> : <h1>Some cool stuff about conditional rendering</h1>}
-        </div>
+        <h1>Some cool stuff about conditional rendering</h1>
     )
 }
 
